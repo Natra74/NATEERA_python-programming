@@ -1,6 +1,6 @@
 # Exercise 1: Basic Print Statement
-# Write a print statement that displays "Hello, World!"
-print("Hello, World!")
+# Write a print statement that displays "Hi, World!"
+print("Hi, World!")
 
 # Exercise 2: Custom Print Statement
 # Write a print statement that displays your name, e.g., "My name is Your Name
