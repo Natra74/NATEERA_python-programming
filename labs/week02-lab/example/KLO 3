@@ -1,0 +1,19 @@
+print("2. Time Coverter : ")
+print("  - Ark user for srconds")
+print("  - Convert to hours, minutes, and remuining second")
+print("  - Example: 3661 seconds = 1 hour, 1 minute, 1 second")
+print()
+
+# input
+second = int(input("Inset second : "))
+
+# process 
+hour = second // 3600
+second_remain = second % 3600
+
+minute = second_remain // 60
+second_remain = second % 60
+
+# output
+print("second = ", hour, "hour, ", minute, "minute, ", second_remain, "second")
+prinf(f"{second} seconds = {hour} hour, {minute} minute, {second_remain} second")
