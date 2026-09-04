@@ -1,0 +1,18 @@
+
+# เขียนโปรแกรม ตรวจสอบความแข็งแรงของ password
+# passwond ที่แข็งแรงคือ ยาวมากกว่า 8 ตัว และมีความผสมกันระหว่างตัวเลข ตัวอักษร และตัวอักขรพิเศษ
+
+# ตัวอย่างหน้าจอ
+# Insert your password : Test123
+# Your password is not strong!
+
+# Insert your password : Test123
+
+password  = input("Insert your password : ")
+lenght = len(password)
+check = password.isalnum()
+
+if lenght > 8 and check == False :
+    print("Your password is  strong!")
+else :
+    print ("Your password is not strong!")
