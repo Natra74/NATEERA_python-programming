@@ -101,6 +101,7 @@ area, circumference = get_circle_info(radius)
 print(f"Circle with radius {radius}:")
 print(f"Area: {area:.2f}")
 print(f"Circumference: {circumference:.2f}")
+print(f"Volumn: {voluan:.2f}")
 print()
 
 # Example 3: Using returned values in expressions
@@ -111,6 +112,10 @@ def multiply(x, y):
 def square(n):
     """Returns the square of a number"""
     return n * n
+
+#จากด้านบน ให้เขียน function ชื่อsquare_rooy(n)
+def square_root(n)
+    return n ** 0.5
 
 print("Using return values in expressions:")
 result = multiply(4, 5) + square(3)
